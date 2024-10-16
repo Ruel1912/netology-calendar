@@ -40,7 +40,7 @@ const Calendar = ({ date }) => {
 
       <table className="ui-datepicker-calendar">
         
-        <WeekDays currentYear={year} />
+        <WeekDays />
         
         <CalendarNumbers date={date} />
       </table>
